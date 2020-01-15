@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "restaurants",
+  "info": {
+    "name": "Restaurant"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "tel": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "categorie_restaurant": {
+      "model": "categorie-restaurant",
+      "via": "restaurants"
+    }
+  }
+}
