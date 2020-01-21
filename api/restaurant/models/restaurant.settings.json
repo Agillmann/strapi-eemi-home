@@ -27,6 +27,9 @@
     "categorie_restaurant": {
       "model": "categorie-restaurant",
       "via": "restaurants"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
