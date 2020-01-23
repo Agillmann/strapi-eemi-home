@@ -15,6 +15,12 @@
     "restaurants": {
       "via": "categorie_restaurant",
       "collection": "restaurant"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
     }
   }
 }
